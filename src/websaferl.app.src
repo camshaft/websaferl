@@ -1,0 +1,11 @@
+{application, websaferl, [
+  {id, "websaferl"},
+  {description, "websafe base64 encode/decode for erlang"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {env, []}
+]}.
